@@ -5,6 +5,7 @@
 <title>easyItem</title>
 
 <link href="./Static/css/application.css" media="all" rel="stylesheet" type="text/css" />
+<link href="./Static/css/easyBtn.css" media="all" rel="stylesheet" type="text/css" />
 
 <script src="./Static/js/jquery-1.7.1.min.js" type="text/javascript"></script>
 <script src="./Static/js/application.js" type="text/javascript"></script>
