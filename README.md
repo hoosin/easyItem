@@ -21,6 +21,23 @@
 安装方法
 ----------
 - 修改`Config/Config_Common.php` 中的配置，应用名称和数据库名
+		
+		```php
+		<?php
+		class Config_Common {
+		
+		    const APP_NAME = 'WORK_TIME';
+		
+		    public static $db = array(
+		        'host' => '10.4.3.92', //主机
+		        'username' => 'unAho3NX8o1Tx', //用户名
+		        'password' => 'pzUlKwJdhKnMI', //密码
+		        'pnet' => 3306, //端口
+		        'dbname' => 'd405932c4b1f748c2ac963289afd3928b', //数据库
+		    );
+		}
+		```
+
 - 修改`upload`文件夹的可写权限，用来保存上传的图片
 - 在浏览器中访问 `http://.../worktime/index.php`
 - 执行安装操作
@@ -41,3 +58,8 @@
 提交BUG
 ----------
 [**提交BUG**](https://github.com/hoosin/easyItem/issues "提交bug")
+
+
+
+
+
