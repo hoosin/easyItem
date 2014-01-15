@@ -57,7 +57,9 @@
 
 提交BUG
 ----------
-[**提交BUG**](https://github.com/hoosin/easyItem/issues "提交bug")
+[![](https://raw.github.com/hoosin/lite/master/img/btn.png)](https://github.com/hoosin/easyItem/issues)
+
+
 
 
 
