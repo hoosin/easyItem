@@ -22,7 +22,7 @@
 ----------
 - 修改`Config/Config_Common.php` 中的配置，应用名称和数据库名
 		
-		```php
+```php
 		<?php
 		class Config_Common {
 		
@@ -36,7 +36,7 @@
 		        'dbname' => 'd405932c4b1f748c2ac963289afd3928b', //数据库
 		    );
 		}
-		```
+```
 
 - 修改`upload`文件夹的可写权限，用来保存上传的图片
 - 在浏览器中访问 `http://.../worktime/index.php`
