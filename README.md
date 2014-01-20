@@ -53,7 +53,7 @@
 
 开源许可
 ----------
- [easyItem](https://github.com/hoosin/easyItem "easyItem") 基于 [MIT License](http://zh.wikipedia.org/wiki/MIT_License "MIT License") 开源，使用代码只需说明来源，或者引用 [license.txt](http://bigfish.duapp.com/easyBtn.css/license.txt "license.txt")  即可。
+ [easyItem](https://github.com/hoosin/easyItem "easyItem") 基于 [MIT License](http://zh.wikipedia.org/wiki/MIT_License "MIT License") 开源，使用代码只需说明来源，或者引用 [license.txt](https://github.com/hoosin/easyItem/blob/master/LICENSE.txt "license.txt")  即可。
 
 提交BUG
 ----------
