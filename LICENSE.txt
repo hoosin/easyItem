@@ -1,6 +1,6 @@
 easyItem
  
-Copyright (C) 2013 Hoosin https://github.com/hoosin/easyItem
+Copyright (C) 2014 Hoosin https://github.com/hoosin/easyItem
 
 2014-1-13
 
