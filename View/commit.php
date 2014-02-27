@@ -69,9 +69,9 @@ $oFCKeditor->Create();
 
     </div>
 
-    <div class="confirm_btn" style="text-align: left;">
-        <button class="btn_h_25" onclick="commit_ticket();">保存并关闭</button>
-        <button class="btn_h_25" onclick="$('#save_and_next').val(1);commit_ticket();">保存并继续添加</button>
-        <button class="btn_h_25" onclick="cls('ticket_one');">取消</button>
+     <div class="confirm_btn" style="text-align: left;">
+        <button class="btn_h_25 button icon calendar" onclick="commit_ticket();">保存并关闭</button>
+        <button class="btn_h_25 button icon add" onclick="$('#save_and_next').val(1);commit_ticket();">保存并继续添加</button>
+        <button class="btn_h_25 button icon reload" onclick="cls('ticket_one');">取消</button>
     </div>
 </div>

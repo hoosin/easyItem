@@ -25,7 +25,7 @@ html {overflow-y:scroll;}
 <div class="head">
     <div class="inner">
         <h1>
-            <img width="150" height="62" alt="" src="../Static/images/logo.png" />
+            <img width="150" height="62" alt="" src="Static/images/logo.png" />
         </h1>
         <div class="extra_op">
             <p class="login_info">

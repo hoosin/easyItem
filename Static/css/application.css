@@ -94,7 +94,7 @@ body { background-color: #fff; }
 a { color: #2366A8; cursor:pointer; text-decoration: underline; }
 a:hover { text-decoration: underline; }
 
-.a { color: #2366A8; cursor:pointer; text-decoration: underline; }
+.a { color: #2366A8; cursor:pointer;}
 .a:hover { text-decoration: underline; }
 
 .hand { cursor: pointer; }

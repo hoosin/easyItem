@@ -98,7 +98,7 @@ echo Lib_Global::format_select_options($test_status_list, $this->test_status);
 <input forme="val" name="title" type="text" class="inputstyle input_100" value="<?php echo $this->title; ?>" />
 
 &nbsp;&nbsp;
-<button onclick="$('#ticket_search_page').val(1);search()">
+<button onclick="$('#ticket_search_page').val(1);search()" class="button icon search">
     查询
 </button>
 
@@ -108,7 +108,7 @@ echo Lib_Global::format_select_options($test_status_list, $this->test_status);
 &nbsp;&nbsp;
 <input id="ticket_go_id" type="text" class="inputstyle input_100" />
 &nbsp;&nbsp;
-<button onclick="ajax('ctl=Ticket&id=' + $('#ticket_go_id').val());">
+<button onclick="ajax('ctl=Ticket&id=' + $('#ticket_go_id').val());" class="button icon pin">
     ID定位
 </button>
 
@@ -235,7 +235,7 @@ echo $row['reporter_id'];
                 echo Lib_Global::format_select_options($status_list, 0);
                 ?>
             </select>
-            <button onclick="change_more('ticket_list', 'ticket', 'change_more_status', 'ctl=Commit&act=change_more');">修改状态</button>
+            <button onclick="change_more('ticket_list', 'ticket', 'change_more_status', 'ctl=Commit&act=change_more');"  class="button">修改状态</button>
         </li>
         <li>
             <select id="change_more_test_status" name="test_status" class="selectstyle">
@@ -243,7 +243,7 @@ echo $row['reporter_id'];
                 echo Lib_Global::format_select_options($test_status_list, 0);
                 ?>
             </select>
-            <button onclick="change_more('ticket_list', 'ticket', 'change_more_test_status', 'ctl=Commit&act=change_more');">修改测试</button>
+            <button onclick="change_more('ticket_list', 'ticket', 'change_more_test_status', 'ctl=Commit&act=change_more');"  class="button">修改测试</button>
         </li>
         <li>
             <select id="change_more_acter_id" name="acter_id"  class="selectstyle">
@@ -251,7 +251,7 @@ echo $row['reporter_id'];
                 echo Lib_Global::format_select_options($admins, 0);
                 ?>
             </select>
-            <button onclick="change_more('ticket_list', 'ticket', 'change_more_acter_id', 'ctl=Commit&act=change_more');">修改负责人</button>
+            <button onclick="change_more('ticket_list', 'ticket', 'change_more_acter_id', 'ctl=Commit&act=change_more');"  class="button">修改负责人</button>
         </li>
         <li>
             <select id="change_more_department" name="department"  class="selectstyle">
@@ -259,11 +259,11 @@ echo $row['reporter_id'];
                 echo Lib_Global::format_select_options($SYS_DEPARTMENT-> list, 0);
                 ?>
             </select>
-            <button onclick="change_more('ticket_list', 'ticket', 'change_more_department', 'ctl=Commit&act=change_more');">修改部门</button>
+            <button onclick="change_more('ticket_list', 'ticket', 'change_more_department', 'ctl=Commit&act=change_more');"  class="button">修改部门</button>
         </li>
         <li>
             <input id="change_more_version" name="version" type="text" class="inputstyle input_100" />    
-            <button onclick="change_more('ticket_list', 'ticket', 'change_more_version', 'ctl=Commit&act=change_more');">设置版本</button>
+            <button onclick="change_more('ticket_list', 'ticket', 'change_more_version', 'ctl=Commit&act=change_more');"  class="button">设置版本</button>
         </li>
         <li>
             <select id="change_more_priority" name="priority"  class="selectstyle">
@@ -271,7 +271,7 @@ echo $row['reporter_id'];
                 echo Lib_Global::format_select_options(Config_App::get_priority_list(), 0);
                 ?>
             </select>
-            <button onclick="change_more('ticket_list', 'ticket', 'change_more_priority', 'ctl=Commit&act=change_more');">
+            <button onclick="change_more('ticket_list', 'ticket', 'change_more_priority', 'ctl=Commit&act=change_more');"  class="button">
                 修改优先级
             </button>
         </li>
