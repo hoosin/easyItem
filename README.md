@@ -1,6 +1,6 @@
 ![easyItem](https://raw.github.com/hoosin/easyItem/master/Static/images/logo.png)
 
-**easyItem**，是基于PHP。定位为项目跟踪管理，BUG管理的一款开源web开源项目。
+**easyItem**，简易轻量的bug管理系统，基于PHP。
 
 
 ##环境要求
